@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rebours</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body class="center">
+    <h1>Countdown</h1>
+    <div>
+        <input id="startValue" type="number" aria-label="Start value" step="0.1" min="0"> sec.
+    </div>
+    <div>
+        <p id="actualValue" class="">0</p>
+    </div>
+    <div>
+        <button id="startBtn" aria-label="Start" class="">Start</button>
+        <button id="stopBtn" aria-label="Stop" class="hide">Stop</button>
+        <div id="resultat" class=""></div>
+    </div>
+    <div id="infos">
+        <p>Précision: <span id="precision">0</span></p>
+        <p>Score: <span id="score">0</span> / Highscore: <span id="highscore">0</span></p>
+    </div>
+
+    <div id="shape-1"></div>
+    <div id="shape-2"></div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

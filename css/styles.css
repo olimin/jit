@@ -1,0 +1,96 @@
+body {
+  background-color: #00d7d7;
+  color: #303030;
+  font-family: open sans, arial;
+}
+
+h1 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+#startValue {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 5px;
+}
+
+#actualValue.hide {
+  margin-top: 2rem;
+  display: block;
+  left: -100%;
+  position: relative;
+}
+
+#actualValue {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#startBtn,
+#stopBtn {
+  padding: 2rem;
+  width: 50vw;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid white;
+  color: #303030;
+  box-shadow: 0 5px 15px -5px #303030;
+}
+
+#startBtn {
+  background-color: #68db68;
+}
+
+#stopBtn {
+  background-color: #ff8383;
+}
+
+#resultat,
+#infos {
+  margin-top: 2rem;
+}
+
+#resultat {
+  font-size: 30pt;
+}
+
+.hide {
+  display: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#shape-1::before,
+#shape-2::before {
+  content: '';
+  display: block;
+  position: fixed;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+#shape-1::before {
+  width: 100vw;
+  height: 150vh;
+  background: linear-gradient(#fff, #fff0);
+  top: -50%;
+  left: -40%;
+  transform: rotate(15deg);
+}
+
+#shape-2::before {
+  width: 110vw;
+  height: 114vh;
+  background: linear-gradient(#00000005, #00c4b17a);
+  top: -20%;
+  left: 20%;
+  transform: rotate(-30deg);
+}
